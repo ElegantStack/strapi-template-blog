@@ -13,16 +13,6 @@
       "icon": null
     }
   ],
-  "homepage": {
-    "seo": {
-      "metaTitle": "My personal Strapi blog",
-      "metaDescription": "Discover my SEO friendly blog built with Strapi.",
-      "shareImage": null
-    },
-    "hero": {
-      "title": "My blog"
-    }
-  },
   "authors": [
     {
       "name": "John Doe",
@@ -79,14 +69,5 @@
       },
       "thumbnail": null
     }
-  ],
-  "global": {
-    "siteName":"Strapi Blog",
-    "defaultSeo":{
-      "metaTitle":"Page",
-      "metaDescription":"A blog made with Strapi",
-      "shareImage":null
-    },
-    "favicon":null
-  }
+  ]
 }
