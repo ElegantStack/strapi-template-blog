@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_tags",
+  "info": {
+    "name": "tags",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
