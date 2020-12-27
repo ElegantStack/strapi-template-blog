@@ -20,10 +20,6 @@
       "targetField": "name",
       "required": true
     },
-    "articles": {
-      "collection": "article",
-      "via": "category"
-    },
     "description": {
       "type": "string"
     },

@@ -24,10 +24,6 @@
       "plugin": "upload",
       "required": false
     },
-    "articles": {
-      "collection": "article",
-      "via": "author"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name"
