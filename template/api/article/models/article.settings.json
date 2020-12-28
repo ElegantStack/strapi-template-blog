@@ -27,9 +27,7 @@
       "model": "author"
     },
     "category": {
-      "model": "category",
-      "via": "articles",
-      "required": true
+      "model": "category"
     },
     "thumbnail": {
       "model": "file",
