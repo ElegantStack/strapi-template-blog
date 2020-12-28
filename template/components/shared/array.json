@@ -1,13 +1,13 @@
 {
-  "collectionName": "components_shared_socials",
+  "collectionName": "components_shared_array",
   "info": {
-    "name": "social",
-    "icon": "users",
+    "name": "array",
+    "icon": "hashtag",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "url": {
+    "value": {
       "type": "string"
     }
   }
