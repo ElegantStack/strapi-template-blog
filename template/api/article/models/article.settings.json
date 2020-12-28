@@ -15,9 +15,10 @@
       "type": "string",
       "required": true
     },
-    "body": {
+    "rawBody": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "label": "Body"
     },
     "date": {
       "type": "datetime",
@@ -29,7 +30,6 @@
       "required": true
     },
     "category": {
-      "via": "articles",
       "model": "category"
     },
     "thumbnail": {
@@ -40,10 +40,6 @@
       ],
       "plugin": "upload",
       "required": false
-    },
-    "author": {
-      "via": "articles",
-      "model": "author"
     },
     "featured": {
       "type": "boolean"
@@ -64,6 +60,9 @@
     },
     "thumbnailText": {
       "type": "string"
+    },
+    "author": {
+      "model": "author"
     }
   }
 }

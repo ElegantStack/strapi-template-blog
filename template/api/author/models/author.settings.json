@@ -29,7 +29,8 @@
       "targetField": "name"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "label": "Bio"
     },
     "title": {
       "type": "string"
