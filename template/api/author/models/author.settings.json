@@ -15,6 +15,10 @@
       "type": "string",
       "required": true
     },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
     "thumbnail": {
       "model": "file",
       "via": "related",
@@ -24,13 +28,8 @@
       "plugin": "upload",
       "required": false
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
-    },
     "description": {
-      "type": "string",
-      "label": "Bio"
+      "type": "string"
     },
     "title": {
       "type": "string"
@@ -38,10 +37,12 @@
     "social": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.social"
+      "component": "shared.array"
     },
     "skills": {
-      "type": "string"
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.array"
     }
   }
 }

@@ -15,22 +15,20 @@
       "type": "string",
       "required": true
     },
-    "rawBody": {
-      "type": "richtext",
-      "required": true,
-      "label": "Body"
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     },
     "date": {
       "type": "datetime",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title",
-      "required": true
+    "author": {
+      "model": "author"
     },
     "category": {
-      "model": "category"
+      "model": "category",
+      "required": true
     },
     "thumbnail": {
       "model": "file",
@@ -41,28 +39,31 @@
       "plugin": "upload",
       "required": false
     },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
     "featured": {
       "type": "boolean"
     },
     "private": {
       "type": "boolean"
     },
-    "tags": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.tags"
-    },
-    "keywords": {
-      "type": "string"
-    },
     "link": {
       "type": "string"
     },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.array"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.array"
+    },
     "thumbnailText": {
       "type": "string"
-    },
-    "author": {
-      "model": "author"
     }
   }
 }
